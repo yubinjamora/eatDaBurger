@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/yubinjamora/eatdaburger/issues"
   },
-  "homepage": "https://github.com/yubinjamora/eatdaburger#readme"
+  "homepage": "https://github.com/yubinjamora/eatdaburger#readme",
+  "dependencies": {
+    "express":"*",
+    
+    "body-parser":"*",
+    "bcrypt": "^0.8.5"
+  }
 }
