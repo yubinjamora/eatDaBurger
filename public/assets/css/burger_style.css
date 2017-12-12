@@ -4,48 +4,13 @@ body {
   background-color: lightsalmon;
 }
 
-#top-bar {
+h1 {
+  color: white;
+  font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
+}
+
+#top {
   margin-top: 30px;
-}
-
-.spacing-reset {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.list-reset {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  border: 0;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 990px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 990px;
-  }
-}
-
-.enter_section {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#enter_text {
-  width: 250px;
-  height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: auto;
-  font-size: 20px;
 }
 
 .task {
@@ -54,19 +19,44 @@ body {
   border-width: 3px;
 }
 
-#letter{
-  font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
-}
-.button-size {
+#button-size {
   padding-bottom: 20px;
 }
 
-#text-enter-button {
-  margin-top: 10px;
-  margin-bottom: 18px;
+.enter_section {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-h1 {
-  color: white;
+#enter_text {
+  margin: auto;
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+#letter-box{
   font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
+}
+
+
+#text-enter-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 990px;
+  }
+}
+
+@media (min-width: 995px) {
+  .container {
+    width: 990px;
+  }
 }
