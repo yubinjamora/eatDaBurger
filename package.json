@@ -18,9 +18,8 @@
   },
   "homepage": "https://github.com/yubinjamora/eatdaburger#readme",
   "dependencies": {
-    "express":"*",
-    
-    "body-parser":"*",
-    "bcrypt": "^0.8.5"
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "^3.0.0"
   }
 }
